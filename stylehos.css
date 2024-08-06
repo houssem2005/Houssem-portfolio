@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container img{
+    height: 30vh;
+    border-radius: 10px;
+    box-shadow: 3cm;
+    border: 3px solid;
+}
+.container{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+ul{
+    margin-right: 30%;
+}
+ul button{
+    margin: 5px;
+    background: transparent;
+    border: none;
+}
+ul button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#about{
+    width: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+#ach{
+    width: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+#goals{
+    width: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+}
